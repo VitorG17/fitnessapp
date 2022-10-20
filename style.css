@@ -1,0 +1,116 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	background: url(../img/background.jpg) no-repeat;
+	background-size: 100% auto;
+	list-style: none;
+	font-family: "Jockey One", sans-serif;
+}
+
+ul,
+li,
+a,
+h1,
+p {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+header nav {
+	margin: 45px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav span {
+	color: #5a582b;
+}
+
+nav ul {
+	font-size: 35px;
+	display: flex;
+	gap: 37px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+	margin-left: 72px;
+	font-family: "Jockey One", sans-serif;
+	letter-spacing: 0.38em;
+	font-size: 140px;
+	line-height: 1.2;
+
+	z-index: 1;
+}
+
+h1 span {
+	color: white;
+}
+
+.conteudo {
+	padding-top: 20px;
+	margin-left: 45px;
+	display: flex;
+	position: relative;
+}
+
+.conteudo .atleta {
+	position: absolute;
+	top: -25px;
+	right: 50px;
+	width: 600px;
+	height: 600px;
+	z-index: 2;
+}
+
+.conteudo p {
+	margin-left: 100px;
+	margin-top: 40px;
+	font-size: 1rem;
+	width: 50ch;
+}
+
+.conteudo .larger {
+	font-size: 1.5rem;
+}
+
+.pics {
+	margin-top: 20px;
+	margin-left: 100px;
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.pics a {
+	list-style: none;
+	color: white;
+	text-decoration: none;
+	padding: 8px 40px 8px 40px;
+	background-color: black;
+	border-radius: 50px;
+}
+
+footer ul {
+	margin-top: 10px;
+	display: flex;
+	margin-left: 170px;
+	gap: 150px;
+}
+
+footer div::before {
+	content: "";
+	display: block;
+	margin-top: 20px;
+	height: 2px;
+	width: auto;
+	margin-left: 160px;
+	margin-right: 170px;
+	background: white;
+}
